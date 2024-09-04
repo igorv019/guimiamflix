@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fundo claro para melhor contraste */
+    color: #333333; /* Texto principal cinza escuro */
+}
+
+header {
+    background: #003366; /* Cabeçalho azul escuro */
+    color: #ffffff; /* Texto branco para contraste */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.news-section {
+    margin-bottom: 20px;
+}
+
+.news-article {
+    background: #ffffff; /* Fundo branco para destacar o conteúdo */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h2 {
+    margin-top: 0;
+    color: #003366; /* Título com a mesma cor do cabeçalho */
+}
+
+.date {
+    font-size: 0.9em;
+    color: #999999; /* Data em cinza claro */
+}
+
+.hashtag {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #cc0000; /* Hashtags em vermelho para destaque */
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc; /* Azul médio para links */
+    text-decoration: none;
+    border: 1px solid #0066cc;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.read-more:hover {
+    background: #0066cc;
+    color: white;
+}
+
+.video-article {
+    background: #ffffff; /* Fundo branco para o vídeo */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicionando overflow e ajuste para a seção de vídeos */
+.categoria-videos {
+    display: flex;
+    overflow-x: auto; /* Rolagem horizontal */
+    max-height: 400px; /* Altura máxima para a seção de vídeos */
+    padding-bottom: 20px; /* Espaçamento inferior para a rolagem */
+}
+
+.video-thumbnail {
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px; /* Espaçamento entre as imagens */
+    opacity: 0.4; /* Define a opacidade inicial para 60% */
+    transition: opacity 0.3s ease; /* Suaviza a transição de opacidade */
+}
+
+.video-thumbnail:hover {
+    opacity: 1; /* A opacidade volta a 100% ao passar o mouse */
+    cursor: pointer; /* Mostra o cursor de ponteiro para indicar que é clicável */
+    border: 1px solid #cc0000; /* Borda vermelha ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #003366; /* Fundo azul escuro */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
